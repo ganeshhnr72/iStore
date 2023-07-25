@@ -1,0 +1,131 @@
+* {
+  background-color: antiquewhite;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #333; /* Adjust the color as needed */
+}
+.app {
+  /* display: none; */
+  display: flex;
+  /* margin-left: 40%; */
+}
+.cart {
+  position: absolute;
+  margin: 10px;
+  right: 20px;
+  font-size: 30px;
+}
+.product {
+  /* display: block; */
+  /* background-color: red; */
+  width: 250px; /* Adjust the width as needed */
+  height: 280px;
+  background-size: cover;
+  object-fit: cover;
+}
+h3 {
+  font-size: 15px;
+  margin: 5px 5px 15px 15px;
+}
+.price {
+  font-size: 11px;
+  margin: 5px 5px 15px 15px;
+  color: rgb(41, 38, 38);
+}
+.cart-btn {
+  margin-left: 11px;
+  /* margin-bottom: 30px; */
+}
+.add-to-cart,
+.remove-to-cart,
+.add-to-cart2,
+.remove-to-cart2,
+input {
+  margin: 0 2px 0 2px;
+  height: 25px;
+  width: 50px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  background-color: #f1535b;
+  border: transparent;
+}
+img {
+  width: 250px; /* Adjust the width as needed */
+  height: 220px; /* Adjust the height as needed */
+  margin: 10px;
+  background-size: cover;
+  object-fit: cover;
+}
+.cart-input {
+  width: 30px;
+}
+.parent-class {
+  display: flex;
+  margin: 100px auto auto auto;
+}
+
+/* //////////////////// show cart section starts here ////////////////////   */
+.product-cart {
+  display: block;
+  /* flex-direction: row; */
+  margin-left: 40%;
+  margin-bottom: 5%;
+  width: 250px; /* Adjust the width as needed */
+  height: 280px;
+  background-size: cover;
+  object-fit: cover;
+  /* position: fixed; */
+  /* top: 50%; */
+}
+.qty {
+  margin-left: 15px;
+}
+/* CSS */
+.fixed-right-center {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translate(0, -50%);
+  width: 300px; /* Adjust the width as needed */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.fixed-right-center > h1 {
+  color: #f1535b;
+  background-color: #f0f0f0;
+}
+
+/* /////////////////////////// hide and seek  */
+
+.show-cart {
+  display: none;
+}
+
+.update-cart2 {
+}
+.total-amount {
+  color: #f1535b;
+}
+.total-qty {
+  color: #f1535b;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.home {
+  background-color: antiquewhite;
+  font-size: 21px;
+  width: 50px; /* Adjust the width as needed */
+  height: 28px;
+  border: transparent;
+  border-radius: 50px;
+}
